@@ -1,0 +1,194 @@
+background-image: linear-gradient(230deg, #00ffff 0, #39ffff 25%, #53bcf2 50%, #4e7ea0 75%, #3c4b5a 100%);
+
+background-image: linear-gradient(230deg, #ff99ff 0, #b779ff 25%, #5353f2 50%, #002ea7 75%, #001067 100%);
+background: rgb(56,55,70);
+
+background: linear-gradient(90deg, rgba(56,55,70,1) 0%, rgba(0,107,101,0.8155637254901961) 100%, rgba(88,132,142,0.9724264705882353) 100%);
+
+background: rgb(2,64,66);
+background: linear-gradient(90deg, rgba(2,64,66,1) 6%, rgba(88,132,142,0.9724264705882353) 38%, rgba(0,184,172,0.8155637254901961) 64%, rgba(0,184,172,0.8155637254901961) 86%);
+
+45%
+background: rgb(2,64,66);
+background: linear-gradient(45deg, rgba(2,64,66,1) 6%, rgba(88,132,142,0.9724264705882353) 38%, rgba(0,184,172,0.8155637254901961) 64%, rgba(0,184,172,0.8155637254901961) 86%);
+
+background: rgb(2,64,66);
+background: linear-gradient(45deg, rgba(2,64,66,1) 6%, rgba(88,142,139,0.9724264705882353) 51%, rgba(0,184,172,0.8155637254901961) 76%);
+background: rgb(3,46,47);
+background: linear-gradient(45deg, rgba(3,46,47,1) 6%, rgba(20,135,129,0.9724264705882353) 57%, rgba(11,215,203,1) 87%);
+
+background: rgb(3,46,47);
+background: linear-gradient(45deg, rgba(3,46,47,1) 9%, rgba(20,135,129,1) 34%, rgba(19,135,132,1) 65%, rgba(107,147,189,1) 100%);
+
+texto degradado ejemplo:
+
+h1 {
+   tamaño de fuente : 72px;
+  fondo : -webkit-linear-gradient(#eee, #333);
+  -webkit-fondo-clip : texto;
+  -webkit-text-fill-color : transparente;
+}
+
+poligono rectangular.
+
+clip-path: polygon(10% 20%,
+                  90% 20%,                 
+                 90% 80%,
+                  10% 80%);
+
+poligono pc:
+clip-path: polygon(14.5% 25.1%,
+                  90% 10%,                 
+ 87% 90%,
+                  10% 87%);
+
+divisor ondas html:
+<div class="forma-personalizada-divisor-parte inferior-1660368262"> 
+    <svg data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120 " preserveAspectRatio="ninguno"> 
+        <ruta d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172, 41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="forma-relleno"></ruta> 
+    </svg> 
+</div>
+INGLES:
+<div class="custom-shape-divider-bottom-1660368262">
+    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120 " preserveAspectRatio="none">
+        <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172, 41.21,600. ,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="form-fill"></path>
+    </svg>
+</div>
+
+divisor ondas css:
+.custom-shape-divider-bottom-1660368303 { 
+    posición: absoluta; 
+    inferior: 0; 
+    izquierda: 0; 
+    ancho: 100%; 
+    desbordamiento: oculto; 
+    altura de línea: 0; 
+} 
+
+.custom-shape-divider-bottom-1660368303 svg { 
+    posición: relativo; 
+    bloqueo de pantalla; 
+    ancho: calc(146% + 1.3px); 
+    altura: 191px; 
+    transformar: rotar Y (180 grados); 
+} 
+
+.custom-shape-divider-bottom-1660368303 .shape-fill { 
+    fill: #FFFFFF; 
+} 
+
+/** Para dispositivos móviles **/ 
+@media (ancho máximo: 767px) { 
+    .custom-shape-divider-bottom-1660368303 svg { 
+        ancho: calc(146% + 1.3px); 
+        altura: 72px; 
+    }
+}
+ingles css:
+.custom-shape-divider-bottom-1660368303 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line height: 0;
+}
+
+.custom-shape-divider-bottom-1660368303 svg {
+    position: relative;
+    screen lock;
+    width: calc(146% + 1.3px);
+    height: 191px;
+    transform: rotate Y (180 degrees);
+}
+
+.custom-shape-divider-bottom-1660368303 .shape-fill {
+    fill: #FFFFFF;
+}
+
+/** For mobile devices **/
+@media (max width: 767px) {
+    .custom-shape-divider-bottom-1660368303 svg {
+        width: calc(146% + 1.3px);
+        height: 72px;
+    }
+}
+divisor onda curva arriba html:
+<div class="divisor-superior-de-forma-personalizada-1660368419"> 
+    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120 " preserveAspectRatio="ninguno"> 
+        <ruta d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172, 41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="forma-relleno"></ruta> 
+    </svg> 
+</div>
+
+divisor ondas curva arriba css:
+.custom-shape-divider-top-1660368419 { 
+    posición: absoluta; 
+    superior: 0; 
+    izquierda: 0; 
+    ancho: 100%; 
+    desbordamiento: oculto; 
+    altura de línea: 0; 
+    transformar: rotar (180 grados); 
+} 
+
+.custom-shape-divider-top-1660368419 svg { 
+    posición: relativo; 
+    bloqueo de pantalla; 
+    ancho: calc(146% + 1.3px); 
+    altura: 191px; 
+    transformar: rotar Y (180 grados); 
+} 
+
+.custom-shape-divider-top-1660368419 .shape-fill { 
+    fill: #FFFFFF; 
+} 
+
+/** Para dispositivos móviles **/ 
+@media (ancho máximo: 767px) { 
+    .custom-shape-divider-top-1660368419 svg { 
+        ancho: calc(146% + 1.3px);
+        altura: 72px; 
+    } 
+}
+
+css wave trucho:
+.container {
+  position: relative;
+  background: #2c3e50;
+  height: 50vh;
+}
+
+.wave {
+  position: absolute;
+  height: 189px;
+  width: 100%;
+  background: #2c3e50;
+  bottom: 0;
+}
+
+.wave::before, .wave::after {
+  content: "";
+  display: block;
+  position: absolute;
+  border-radius: 50% 100%;
+}
+
+.wave::before {
+  width: 55%;
+  height: 100%;
+  background-color: #2c3e50;
+  right: -1.5%;
+  top: 40%;
+}
+.wave::after {
+  width: 55%;
+  height: 109%;
+  background-color: #fff;
+  left: -1.5%;
+  top: 60%;
+}
+
+html wave trucho:
+<section class="container">
+  <div class="wave"></div>
+</section>
