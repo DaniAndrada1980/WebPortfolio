@@ -26,7 +26,7 @@ y trabajos paersonales los cuales tienen "Copyright" tambien se debera borrar y/
 
 El mismo puede descargarse/clonarse desde:
 
-https://github.com/DaniAndrada1980/Portfolio.git
+https://github.com/DaniAndrada1980/Portfolio
 
 Mas alla de los puntos descriptos en el parrafo anterior cumpliendolos correctamente la pagina web 
 se podrá clonar, descargar, usar, copiar, modificar, publicar, etc.
