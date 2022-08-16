@@ -2,11 +2,6 @@
 
 Un Portfolio simple y elegante desarrollado en ReactJS. 
 
-### vealo en vivo: (https://github.com/DaniAndrada1980)
-
-
-
-
 ### Caracteristicas:
 
 - Totalmente Responsivo.
@@ -15,28 +10,6 @@ Un Portfolio simple y elegante desarrollado en ReactJS.
 - Animacion de texto.
 - Menu con efecto de barrido lateral.
 - Transparencias.
-
-
-
-### Como descargarlo para su edicion:
-
-Clone el codigo:
-
- <pre>git clone https://github.com/DaniAndrada1980</pre>
- 
-Instale las dependencias:
-
-<pre>yarn install</pre>
-
-Modifiquelo a su gusto editando los index.js y styles.css, guarde los cambios.
-
-Arranque el servidor mientras edita y vea sus cambios en tiempo real.
-
-<pre>yarn start</pre>
-
-Elimine los Copyright de los Footers.
-
-Su uso es totalmente libre una vez cumplidos los items de los "Terminos y permisos de uso".
 
 TERMINOS Y PERMISOS DE USO :
 
@@ -71,6 +44,28 @@ DANIEL ANDRADA FULL STACK & ANDROID DEVELOPER.
 
 
 │ Copyright (c) 2022-2023 Dani Andrada Full Stack Developer │
+
+
+### Como descargarlo para su edicion:
+
+Clone el codigo:
+
+ <pre>git clone https://github.com/DaniAndrada1980</pre>
+ 
+Instale las dependencias:
+
+<pre>yarn install</pre>
+
+Modifiquelo a su gusto editando los index.js y styles.css, guarde los cambios.
+
+Arranque el servidor mientras edita y vea sus cambios en tiempo real.
+
+<pre>yarn start</pre>
+
+Elimine los Copyright de los Footers.
+
+Su uso es totalmente libre una vez cumplidos los items de los "Terminos y permisos de uso".
+
 
 
 
