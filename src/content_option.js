@@ -1,13 +1,13 @@
 
-const logotext = "Dani Andrada │ Full Stack Developer │ Inicio";
+const logotext = "Inicio";
 const meta = {
-    title: "Daniel Andrada │ Portfolio",
+    title: "TU NOMBRE │ Portfolio",
     description: "I’m Daniel Andrada Full stack & Android developer",
 
 };
 
 const introdata = {
-    title: "Bienvenidos a mi sitio !! Soy Dani Andrada Full Stack & Android Developer",
+    title: "Bienvenidos a mi sitio !!",
 
     animated: {
         first: "Full Stack & Android Developer",
@@ -26,7 +26,7 @@ const introdata = {
 
 const dataabout = {
     title: "Acerca de Mi",
-    aboutme: "Mi nombre es Daniel, actualmente me encuentro capacitándome como Full Stack Developer en OpenBootCamp, y también como Android Developer en Google Developers Academy, poseo una Diplomatura Universitaria en Programación de Mainframes (Cobol, JCL, DB2) , obtuve esta diplomatura en la Universidad Nacional de Tres de Febrero(Argentina), además soy autodidacta en el área de seguridad informática, manejo distros de Linux estilo Kali Linux y sus componentes y herramientas, me manejo muy cómodo en el Cloud Computing de Azure, estoy constantemente desde hace años actualizándome y capacitándome en desarrollo y programación y el lenguaje Ingles.",
+    aboutme: "Mi nombre es  PON TU NOMBRE, actualmente me encuentro capacitándome como Full Stack Developer en OpenBootCamp, y también como Android Developer en Google Developers Academy, poseo una Diplomatura Universitaria en Programación de Mainframes (Cobol, JCL, DB2) , obtuve esta diplomatura en la Universidad Nacional de Tres de Febrero(Argentina), además soy autodidacta en el área de seguridad informática, manejo distros de Linux estilo Kali Linux y sus componentes y herramientas, me manejo muy cómodo en el Cloud Computing de Azure, estoy constantemente desde hace años actualizándome y capacitándome en desarrollo y programación y el lenguaje Ingles.",
 };
 const worktimeline = [{
     jobtitle: "Programador Freelance",
@@ -83,8 +83,8 @@ const dataportfolio = [{
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "Email: daniandrada1980@gmail.com",
-    YOUR_FONE: "Hablemos via WhatsApp: (+54)911-3571-8748",
+    YOUR_EMAIL: "Email: PON AQUI TU EMAIL",
+    YOUR_FONE: "Hablemos via WhatsApp: PON AQUI TU NUMERO WHATSAAP ",
     description: "Tambien puedes seguirme en mis redes sociales ",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
@@ -94,9 +94,9 @@ const contactConfig = {
 };
 
 const socialprofils = {
-    github: "https://github.com/DaniAndrada1980",
+    github: "https://github.com",
     facebook: "https://facebook.com",
-    linkedin: "https://www.linkedin.com/in/daniel-andrada/",
+    linkedin: "https://www.linkedin.com",
     youtube: "https://youtube.com",
 
 };
