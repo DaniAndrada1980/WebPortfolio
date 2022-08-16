@@ -50,7 +50,7 @@ DANIEL ANDRADA FULL STACK & ANDROID DEVELOPER.
 
 Clone el codigo:
 
- <pre>git clone https://github.com/DaniAndrada1980</pre>
+ <pre>git clone https://github.com/DaniAndrada1980/Portfolio.git</pre>
  
 Instale las dependencias:
 
