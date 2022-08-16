@@ -87,7 +87,7 @@ export const Home = () => {
           </div>
         </div>
         <div className="menu_footer d-flex flex-column flex-md-row justify-content-center align-items-md-center position-absolute w-100 p-3">
-            <p className="copyright m-0">&copy; Copyright 2022 Pagina Web Desarrolada por Dani Andrada</p>
+            <p className="copyright m-0">&copy; Copyright 2022 Pagina Web Desarrolada por PON TU NOMBRE AQUI</p>
           </div>
       </section>
     </HelmetProvider>
