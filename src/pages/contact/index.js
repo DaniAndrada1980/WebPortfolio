@@ -104,7 +104,7 @@ export const ContactUs = () => {
               <br />
               {contactConfig.hasOwnProperty("YOUR_FONE") ? (
                 <p>
-                  <strong><a href={`https://api.whatsapp.com/send?phone=5491135718748&text=Hola%20Daniel,%20te%20contacto%20desde%20tu%20web%20quisiera%20hablar%20contigo,%20espero%20tu%20respuesta.`}>
+                  <strong><a href={`https://api.whatsapp.com/send?phone=PONTUNUMEROAQUI&text=Hola%20PONTUNOMBREAQUI,%20te%20contacto%20desde%20tu%20web%20quisiera%20hablar%20contigo,%20espero%20tu%20respuesta.`}>
                   {contactConfig.YOUR_FONE} 
                   </a> </strong>{" "} 
                   
