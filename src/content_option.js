@@ -2,7 +2,7 @@
 const logotext = "Inicio";
 const meta = {
     title: "TU NOMBRE │ Portfolio",
-    description: "I’m Daniel Andrada Full stack & Android developer",
+    description: "",
 
 };
 
