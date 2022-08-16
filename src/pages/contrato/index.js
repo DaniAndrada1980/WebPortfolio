@@ -33,7 +33,7 @@ export const ContractMe = () => {
               {contactConfig.hasOwnProperty("YOUR_FONE") ? (
                 <p>
                 <strong> 
-                  <a href={`https://api.whatsapp.com/send?phone=5491135718748&text=Hola%20Daniel,%20te%20contacto%20desde%20tu%20web%20quisiera%20hablar%20contigo,%20por%20un%20posible%20empleo,%20espero%20tu%20respuesta.`} >
+                  <a href={`https://api.whatsapp.com/send?phone=PONTUNUMEROAQUI&text=Hola%20PONTUNOMBREAQUI,%20te%20contacto%20desde%20tu%20web%20quisiera%20hablar%20contigo,%20por%20un%20posible%20empleo,%20espero%20tu%20respuesta.`} >
                   {contactConfig.YOUR_FONE} 
                   </a>
                 </strong>{" "} 
@@ -52,6 +52,6 @@ export const ContractMe = () => {
 };
 
 <div className="menu_footer d-flex flex-column flex-md-row justify-content-center align-items-md-center position-absolute w-100 p-3">
-            <p className="copyright m-0">&copy; Copyright 2022 Pagina Web Desarrolada por Dani Andrada</p>
+            
           </div>
           ;
