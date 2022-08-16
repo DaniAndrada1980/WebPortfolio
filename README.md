@@ -64,7 +64,7 @@ Arranque el servidor mientras edita y vea sus cambios en tiempo real.
 
 Elimine los Copyright de los Footers.
 
-Su uso es totalmente libre una vez cumplidos los items de los "Terminos y permisos de uso".
+Su uso es totalmente libre una vez cumplidos los items de los "Terminos y Permisos de uso".
 
 
 
