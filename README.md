@@ -30,7 +30,7 @@ https://github.com/DaniAndrada1980/Portfolio
 
 Imagen de vista previa (Dark & Light Mode)
 
-https://raw.githubusercontent.com/DaniAndrada1980/Portfolio/main/Portfolio%20Web%20(Dark%20%26%20Light%20Mode).jpg
+https://raw.githubusercontent.com/DaniAndrada1980/Portfolio/main/Preview%20(Dark%20%26%20Light%20Mode).jpg
 
 Mas alla de los puntos descriptos en el parrafo anterior cumpliendolos correctamente la pagina web 
 se podrá clonar, descargar, usar, copiar, modificar, publicar, etc.
