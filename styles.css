@@ -1,0 +1,16 @@
+:root {
+    --bg-color:-webkit-linear-gradient(-45deg,#5e5e73,#016263,#039fa1);
+    background: -o-linear-gradient(-45deg,#5e5e73,#016263,#039fa1);
+    background: -moz-linear-gradient(-45deg,#5e5e73,#016263,#039fa1);
+    background: linear-gradient(-45deg,#5e5e73,#016263,#039fa1);
+    --primary-color: #9dfacf;
+    --secondary-color: #fff;
+    --text-color:#3dffc5;
+    --text-color-2: #fff;
+    --overlay-color: rgb(12 12 12 / 63%);
+    --transparent-color: transparent;
+    --cursor-color: #3dffc5;
+    --mark-color:#9dfacf;
+    font-family: 'Truculenta', sans-serif;
+    color:#9dfacf
+}
