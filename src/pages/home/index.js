@@ -4,6 +4,10 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 import Typewriter from "typewriter-effect";
 import { introdata, meta } from "../../content_option";
 import { Link } from "react-router-dom";
+import { legales } from "../../content_option";
+
+
+
 
 export const Home = () => {
   return (
@@ -68,7 +72,7 @@ export const Home = () => {
                       <div className="ring three"></div>
                     </div>
                   </Link>
-
+                  
                   <Link to="/contrato">
                     <div id="button_h" className="ac_btn btn">
 
@@ -86,9 +90,18 @@ export const Home = () => {
             </div>
           </div>
         </div>
-        <div className="menu_footer d-flex flex-column flex-md-row justify-content-center align-items-md-center position-absolute w-100 p-3">
-            <p className="copyright m-0">&copy; Copyright 2022 Pagina Web Desarrolada por PON TU NOMBRE AQUI</p>
+        
+        <div className="menu_footer d-flex flex-column flex-md-row justify-content-right align-items-md-center position-absolute w-100 p-3">
+        <div id= "a_legales" className="copyright m-0">
+        <a href={legales.legal}>©</a> 
+          <h3>Copyright</h3>
+        
+
+    
           </div>
+        
+            
+        </div>
       </section>
     </HelmetProvider>
   );

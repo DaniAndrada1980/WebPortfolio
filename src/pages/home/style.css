@@ -113,12 +113,18 @@ section {
     background-size: cover;
     background-size: 100%;
     background-position: center;
+    margin-right: 20px;
     background-repeat: no-repeat;
     min-height: 100px;
     position: relative;
     
 }
 
+h4{
+    font-size: 11px;
+    margin-top: 12px;
+    color: var(--text-color);
+ }
 
 .ac_btn {
     padding: 5px 25px;
@@ -278,4 +284,7 @@ section {
     justify-items: right;
     justify-content: right;
     background: var(--bg-color);
+}
+.copyright  {
+    font-size: 11px;
 }
