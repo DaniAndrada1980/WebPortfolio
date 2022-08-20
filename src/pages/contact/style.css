@@ -1,3 +1,25 @@
+
+
+
+
+.display-4 {
+    /*titulo quieres contactarme*/
+    font-size:50px;
+    text-align: left;
+    margin-top: 50px;
+}
+
+.text {
+    /*fuente mensaje antes del los contactos email whatsaap*/
+    font-size: 22px;
+    text-align:left;
+    margin-top: -25px;
+    hyphens: none;
+    margin-bottom: 45px;
+   
+}
+
+
 .contact__form .form-control {
     padding: 1.375rem .75rem;
     line-height: 1.5;
@@ -5,15 +27,25 @@
     background-color: var(--bg-color);
     border-radius: 0 !important;
     border: 1px solid var(--secondary-color);
+    margin-left: 10px;
+
+    
 }
 
 .contact__form input.form-control {
     margin-bottom: 2em;
     height: calc(2.5em + .75rem + 2px);
+    margin-top: -20px;
+  
 }
 
+
+
 button.btn.ac_btn:hover {
-    color: var(--secondary-color);
+    color: var(--text-color);
+  
+    
+   
 }
 
 .loading-bar {

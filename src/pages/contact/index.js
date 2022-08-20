@@ -93,10 +93,11 @@ export const ContactUs = () => {
             </Alert>
           </Col>
           <Col lg="5" className="mb-5">
-            <h3 className="color_sec py-4">Puedes comunicarte conmigo haciendo click en los links debajo o 
+            <h3 className="text">Puedes comunicarte conmigo haciendo click en los links debajo o 
             enviarme un mensaje por medio de la casilla al costado indicando tu nombre, 
             tu email y aquello que quieras consultarme, te contestaré a la brevedad.</h3>
             <address>
+              
               <strong><a href={`mailto:${contactConfig.YOUR_EMAIL}`}>
                 {contactConfig.YOUR_EMAIL}
               </a> </strong>{" "}
@@ -104,7 +105,7 @@ export const ContactUs = () => {
               <br />
               {contactConfig.hasOwnProperty("YOUR_FONE") ? (
                 <p>
-                  <strong><a href={`https://api.whatsapp.com/send?phone=PONTUNUMEROAQUI&text=Hola%20PONTUNOMBREAQUI,%20te%20contacto%20desde%20tu%20web%20quisiera%20hablar%20contigo,%20espero%20tu%20respuesta.`}>
+                  <strong><a href={`https://api.whatsapp.com/send?phone=5491135718748&text=Hola%20Daniel,%20te%20contacto%20desde%20tu%20web%20quisiera%20hablar%20contigo,%20espero%20tu%20respuesta.`}>
                   {contactConfig.YOUR_FONE} 
                   </a> </strong>{" "} 
                   
@@ -116,7 +117,7 @@ export const ContactUs = () => {
             </address>
             <p>{contactConfig.description}</p>
           </Col>
-          <Col lg="7" className="d-flex align-items-center">
+          <Col lg="7" className="d-flex align-items-right">
             <form onSubmit={handleSubmit} className="contact__form w-100">
               <Row>
                 <Col lg="6" className="form-group">
