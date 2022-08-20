@@ -2,9 +2,7 @@ import React, { useState } from "react";
 import "./style.css";
 import { VscMenu, VscClose } from "react-icons/vsc";
 import { Link } from "react-router-dom";
-import { logotext } from "../content_option";
 import Themetoggle from "../components/themetoggle";
-import { TiHomeOutline } from "react-icons/ti";
 
 const Headermain = () => {
   const [isActive, setActive] = useState("false");
@@ -19,10 +17,12 @@ const Headermain = () => {
       <header className="fixed-top site__header">
         <div className="d-flex align-items-center justify-content-between">
         <Link  className="navbar-brand nav_ac" to="/">
-            {logotext}
-            <button className="home__button  nav_ac" onClick={handleToggle} 
-            to="/home">{!isActive ? <TiHomeOutline /> : <  TiHomeOutline />}
+            <button className="home_button " to="/home">
+              
+               Inicio
           </button>
+          
+
           </Link>
           <div className="d-flex align-items-center">
           <Themetoggle />
@@ -59,7 +59,7 @@ const Headermain = () => {
           </div>
           <div className="menu_footer d-flex flex-column flex-md-row justify-content-center align-items-md-center position-absolute w-100 p-3">
             
-            <p className="copyright m-0">&copy; Copyright 2022 Pagina Web Desarrolada por Dani Andrada</p>
+            <p className="copyright m-0"></p>
           </div>
         </div>
       </header>
