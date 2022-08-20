@@ -37,6 +37,7 @@ section {
     min-height: 700px;
     height: 100vh;
     margin-top: -60px;
+    background-color:transparent;
 }
 
 @media (max-width:991.98px) {
@@ -85,6 +86,7 @@ section {
 }
 
 .intro_sec .text h1 {
+    /*Texto Typewrite*/
     font-size: 28px;
    
     font-weight:400;
@@ -93,6 +95,18 @@ section {
     font-weight: 600;
 }
 
+@media (max-width: 600px) {
+
+    .intro_sec .text h1{
+        font-size: 18px;
+        font-weight:400;
+        text-align:center ;
+        margin-top: -10px;
+        margin-bottom: 80px;        
+  } 
+  }
+
+
 .intro_sec .text h3 {
     font-size: 16px;
    
@@ -100,6 +114,7 @@ section {
 }
 
 .mb-2x {
+    /*texto debajo del typewrite*/
     font-size:20px;
    
     text-align: left;
@@ -109,6 +124,20 @@ section {
     margin-bottom: -5px;
 }
 
+@media (max-width: 500px){
+ 
+    .mb-2x {
+        font-size:16px;
+   
+        text-align: center;
+        justify-content: center;
+        hyphens: none ;
+        margin-top: 325px;
+        margin-bottom: -5px;
+    }
+    }
+
+/* home imagen background (computadora)*/
 .intro_sec .h_bg-image {
     background-size: cover;
     background-size: 100%;
@@ -117,8 +146,24 @@ section {
     background-repeat: no-repeat;
     min-height: 100px;
     position: relative;
-    
+
 }
+@media (max-width: 500px){
+ 
+    .h_bg-image {
+        background-size: cover;
+        background-size: 100%;
+        position: absolute;
+        background-position: center;
+        margin-top: -50px;
+        margin-bottom: 100px;
+        opacity:1 ;
+        background-repeat: no-repeat;
+       
+        
+    }
+}
+
 
 h4{
     font-size: 11px;
@@ -127,10 +172,11 @@ h4{
  }
 
 .ac_btn {
+    /*Caracteristicas botones*/
     padding: 5px 25px;
     color: var(--text-color);
-    font-weight: 500;
-    
+    font-weight: 600;
+    font-size: 16.1px;
     position: relative;
     border: var(--text-color) 2px solid;
     overflow: hidden;
@@ -142,12 +188,35 @@ h4{
     margin-bottom: 5px;
 }
 
+@media (max-width: 600px) {
+    .ac_btn {
+        padding: 3.5px 17px;
+        color: var(--text-color);
+        font-weight:100;
+        font-size: 14px;
+        position:relative;
+        border: var(--text-color) 2px solid;
+        overflow: hidden;
+        transition: all 1.5s cubic-bezier(0.55, 0, 0.1, 1);
+        cursor: pointer;
+        border-radius: 0;
+        margin-top: 25px;
+        margin-right: 5px;
+        margin-left: 5px;
+        margin-bottom: 5px;
+        
+  } 
+  }
+
+
+
 .ac_btn a {
-    text-decoration: solid;
+    text-decoration: none;
     
 }
 
 .ac_btn:hover {
+    /*colores de solapa animacion botones al clickear*/
     box-shadow: 6px 6px 0px var(--text-color-2), -6px -6px 0px var(--mark-color);
 }
 
@@ -179,7 +248,8 @@ h4{
 }
 
 .ac_btn .one {
-    background-color: var(--text-color);
+    /*primer color de animacion*/
+    background-color: var(--primary-color);
     transition: all 0.3s cubic-bezier(0.55, 0, 0.1, 1);
     z-index: -3;
     z-index: -4;
@@ -193,6 +263,7 @@ h4{
 }
 
 .ac_btn .three {
+    /*carateristica y animacion de los botones al clickear*/
     background-color: var(--primary-color);
     z-index: -2;
     transition: all 0.9s cubic-bezier(0.55, 0, 0.1, 1);
@@ -202,16 +273,16 @@ h4{
 #button_p {
     background: var(--bg-color);
     color: var(--primary-color);
-    font-size: 16px;
-   
+    font-size: 50px;
     font-weight: 700;
     
 }
 
 #button_h:hover {
-    color: var(--text-color);
-    font-size: 16px;
-    font-weight: 700;
+    /*Tamaño botones al clickear color es el color que toma la letra*/
+    color:var(--text-color);
+    font-size: 18px;
+    font-weight: 500;
 }
 
 .intro_sec .h_bg-image .block {
@@ -224,7 +295,7 @@ h4{
     height: 220px;
     border-radius: 100%;
     /* mix-blend-mode: multiply; */
-    background-color: #2f514e;
+    background-color:transparent;
     z-index: 9999999999;
     display: flex;
     align-items: center;
@@ -283,8 +354,11 @@ h4{
     text-align: end;
     justify-items: right;
     justify-content: right;
-    background: var(--bg-color);
+    background-color: transparent;
 }
 .copyright  {
     font-size: 11px;
+    background-color:transparent;
 }
+
+

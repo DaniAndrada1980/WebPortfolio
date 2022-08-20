@@ -76,7 +76,7 @@ export const Home = () => {
                   <Link to="/contrato">
                     <div id="button_h" className="ac_btn btn">
 
-                      ¿Eres una empresa y quieres contratarme?, Hablemos !!
+                      ¿Necesitas una web, una App o quieres consultarme algo?
                       
                       <div className="ring one"></div>
                       <div className="ring two"></div>
