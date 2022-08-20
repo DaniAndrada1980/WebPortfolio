@@ -14,7 +14,8 @@ Un Portfolio simple y elegante desarrollado en ReactJS.
 TERMINOS Y PERMISOS DE USO :
 
 A Excepcion de la comunidad de Open BootCamp quienes tienen mi permiso para hacer con el lo que quieran en tanto y en cuanto borren mis datos.
-A excepcion de ellos los terminos de provacidad y de uso son los descripto abajo.
+
+A excepcion de ellos los terminos de privacidad y de uso son los descripto abajo.
 
 │ Copyright (c) 2022-2023 Dani Andrada Full Stack Developer │
 
