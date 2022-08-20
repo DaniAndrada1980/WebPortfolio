@@ -14,7 +14,7 @@ const Themetoggle = () => {
   }, [theme]);
   return (
     <div className="nav_ac" onClick={themetoggle} >
-        <h4>Modo Claro-Oscuro  <VscColorMode/></h4>
+        <h4><VscColorMode/></h4>
     </div>
   );
 };

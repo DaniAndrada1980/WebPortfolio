@@ -1,5 +1,5 @@
 
-const logotext = "Dani Andrada │ Full Stack Developer │ Inicio";
+const logotext = "";
 const meta = {
     title: "Daniel Andrada │ Portfolio",
     description: "I’m Daniel Andrada Full stack & Android developer",
@@ -36,24 +36,7 @@ const worktimeline = [{
 ];
 
 const skills = [{
-    name: "Java",
-    value: 90,
-},
-{
-    name: "NodeJS",
-    value: 100,
-},
-{
-    name: "HTML │ CSS │ Javascript",
-    value: 100,
-},
-{
-    name: "React & React Native",
-    value: 95,
-},
-{
-    name: "Bootstrap",
-    value: 85,
+
 },
 ];
 
@@ -85,7 +68,7 @@ const dataportfolio = [{
 const contactConfig = {
     YOUR_EMAIL: "Email: daniandrada1980@gmail.com",
     YOUR_FONE: "Hablemos via WhatsApp: (+54)911-3571-8748",
-    description: "Tambien puedes seguirme en mis redes sociales ",
+    
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
     YOUR_SERVICE_ID: "service_id",
